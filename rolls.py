@@ -20,7 +20,7 @@ fi = int(0)
 si = int(0)
 
 a = int(0)
-for a in list1:
+while(a <= (numRoll - 1))
     if(list1[a] == 1):
             o += 1
     i += 1
