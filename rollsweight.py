@@ -71,4 +71,4 @@ print(f"4: {fo}/{numRoll} = {fo / numRoll}%")
 print(f"5: {fi}/{numRoll} = {fi / numRoll}%")
 print(f"6: {si}/{numRoll} = {si / numRoll}%")
 
-    
+# added 1 in 5 cahnce of rolling a 1. if not it will roll any other number randomly    
