@@ -7,7 +7,7 @@ numRoll = int(input("Enter number of rolls: "))
 list1 = {}
 
 i = int(0)
-while(i <= numRoll):
+while(i <= (numRoll - 1)):
     roll = random.randint(1, 6)
     list1[i] = roll
     i += 1
@@ -26,31 +26,31 @@ for a in list1:
     i += 1
     
 b = int(0)
-while(b <= numRoll):
+while(b <= numRoll - 1):
     if(list1[b] == 2):
             tw += 1
     b += 1
     
 c = int(0)
-while(c <= numRoll):
+while(c <= numRoll - 1):
     if(list1[c] == 3):
             th += 1
     c += 1
         
 d = int(0)
-while(d <= numRoll):
+while(d <= numRoll - 1):
     if(list1[d] == 4):
             fo += 1
     d += 1       
         
 e = int(0)
-while(e <= numRoll):
+while(e <= numRoll - 1):
     if(list1[e] == 5):
             fi += 1
     e += 1        
         
 f = int(0)
-while(f <= numRoll):
+while(f <= numRoll - 1):
     if(list1[f] == 6):
             si += 1
     f += 1
