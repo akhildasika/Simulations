@@ -6,7 +6,7 @@ flips = [0] * numFlips
                
 i = int(0)
 while(i < numFlips - 1):
-       flip = random.randint(1,2)
+       flip = random.randint(0,1)
        flips[i] = flip
        i += 1
 
